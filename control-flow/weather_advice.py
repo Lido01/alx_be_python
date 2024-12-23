@@ -1,4 +1,4 @@
-weather_input = nput("What's the weather like today?(sunny/rainy/cold):")
+weather_input = input("What's the weather like today?(sunny/rainy/cold):")
 
 if(weather_input == "sunny"):
     print("Wear a t-shirt and sunglasses")
