@@ -4,16 +4,16 @@ operation = input("Choose the operaton (+, -, *, /):")
 match operation:
     case "+":
         result = num1 + num2
-        print("The result is ",result)
+        print("The result is, {result}")
     case "-":
         result = num1 - num2
-        print("The result is 3", result)
+        print("The result is ,{result}")
     case "*":
         result = num1 * num2
-        print("The result is ",result)
+        print("The result is ,{result}")
     case "/":
         if (num2 == 0):
             print("Cannot divide by zero")
         else:
             result = num1 / num2
-            print("The result is ", result)
+            print("The result is , {result})
