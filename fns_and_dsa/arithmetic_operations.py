@@ -15,9 +15,9 @@ def perform_operation(num1, num2, operation):
     elif operation == "multiply":
         return num1 * num2
     elif operation == "divide":
-        if num2 != 0:
-            return num1 / num2
-        else:
+        if num2 == 0:
             return "it can not divide by zero"
+        else:
+            return num1 / num2
 if __name__ == "__main__":
     main()
