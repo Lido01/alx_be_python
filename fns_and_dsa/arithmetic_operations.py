@@ -1,4 +1,4 @@
-# from arithmetic_operations import perform_operation
+#from arithmetic_operations import perform_operation
 def main():
     print("Arithmetic Operations")
     num1 = float(input("Enter the first number: "))
@@ -7,7 +7,6 @@ def main():
 
     result = perform_operation(num1, num2, operation)
     print(f"Result: {result}")
-
 def perform_operation(num1, num2, operation):
     if operation == "add":
         return num1 + num2
