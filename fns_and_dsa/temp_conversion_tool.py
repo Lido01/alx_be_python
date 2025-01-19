@@ -7,7 +7,6 @@ def convert_to_celsius(fahrenheit):
     celsius = (fahrenheit - OFFSET) * FAHRENHEIT_TO_CELSIUS_FACTOR
     return celsius
 def convert_to_fahrenheit(celsius):
-    """Convert Celsius to Fahrenheit"""
     global CELSIUS_TO_FAHRENHEIT_FACTOR
     fahrenheit = (celsius * CELSIUS_TO_FAHRENHEIT_FACTOR) + OFFSET
     return fahrenheit
