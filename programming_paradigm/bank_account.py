@@ -18,7 +18,6 @@ class BankAccount:
         else:
             print("Withdrawal amount must be positive.")
             return False
-
     def display_balance(self):
         print(f"Current balance: ${self._account_balance:.2f}")
 
