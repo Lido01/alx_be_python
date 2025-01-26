@@ -1,13 +1,14 @@
 class Book:
-    def __call__(self, *title: str, *author: str, year: int):
-        self.titlt = title
+    def __init__(self, title: str, author: str, year: int):
+        self.title = title
         self.author = author
         self.year = year
-    def __delattr__(self, name):
-        "Deleting (title of the book)"
+
+    def __del__(self):
+        print(f"Deleting '{self.title}'")
+
     def __str__(self):
-        "(title) by (author), published in (year)"
-        
+        return f"'{self.title}' by {self.author}, published in {self.year}"
+
     def __repr__(self):
-        f"Book('{self.title}', '{self.author}"
-        
+        return f"Book('{self.title}', '{self.author}', {self.year})"
