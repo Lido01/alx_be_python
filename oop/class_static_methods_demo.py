@@ -1,4 +1,3 @@
-# Static method and class method
 class Calculator:
     calculation_type = "Arithiemtic Operations"
     
