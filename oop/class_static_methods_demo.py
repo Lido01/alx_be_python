@@ -1,6 +1,6 @@
 # Static method and class method
 class Calculator:
-    calculation_type = f"Arithiemtic Operations"
+    calculation_type = "Arithiemtic Operations"
     def __init__(self, a, b):
         self.a = a
         self.b = b
